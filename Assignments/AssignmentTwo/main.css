@@ -1,0 +1,15 @@
+.box{
+    border: 5px solid black;
+    padding: 5px 10px 15px 0px;
+    display: inline-block;
+}
+
+.first{
+    height: 300px;
+    width: 50%;
+    visibility: hidden;
+}
+
+.second:hover {
+    padding: 50px;
+}
