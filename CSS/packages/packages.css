@@ -43,10 +43,9 @@ main {
     background: white;
 }
 
-.package__align-right {
-    align-content: right;
+.clearfix {
+    clear: both;
 }
-
 
 .package__pre__title {
  color: white;
@@ -67,6 +66,9 @@ main {
 
 .free {
     background: rgba(234,252,237,0.95);
+    float: right;
+    border-right: none;
+    border-left: 4px solid #0e4f1f
 }
 .premium {
     background: rgba(14,79,31,0.95);
