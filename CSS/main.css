@@ -74,6 +74,24 @@ color: rgb(133,133,133);
     margin: 8px 0;
 }
 
+.button {
+    background: #0e4f1f;
+    font: inherit;
+    color:white;
+    border: 1.5px solid #0e4f1f;
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button:hover {
+
+    background: white;
+    color: #0e4f1f;
+    font-weight: bold;
+}
+
 .main-header {
     width: 100%;
     background: #2ddf5c;
