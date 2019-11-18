@@ -37,7 +37,8 @@ body{
 .plan--highlighted {
     background: #19b84c;
     color: white;
-    box-shadow: 2px 2px 2px 2px rgb(0,0,0,0.5)
+    box-shadow: 2px 2px 2px 2px rgb(0,0,0,0.5);
+    border-radius: 8px;
 }
 
 .plan__annotation {
@@ -90,6 +91,23 @@ color: rgb(133,133,133);
     background: white;
     color: #0e4f1f;
     font-weight: bold;
+}
+
+.button:focus {
+    outline:none;
+}
+
+#key-features {
+    background: #ff1b68;
+    margin-top: 80px;
+
+}
+
+#key-features .section-title {
+    color: white;
+    padding: 32px;
+
+
 }
 
 .main-header {
