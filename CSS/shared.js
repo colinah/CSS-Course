@@ -1,11 +1,15 @@
-var backdrop = document.querySelector('.backdrop');
+let backdrop = document.querySelector('.backdrop');
 let modal = document.querySelector('.modal');
-var selectPlanButtons = document.querySelectorAll('.plan button');
-let modalNo = document.querySelector('.modal__action--negative')
+let selectPlanButtons = document.querySelectorAll('.plan button');
+let modalNo = document.querySelector('.modal__action--negative');
+let toggleButton = document.querySelector('.toggle-button');
+let mobileNav = document.querySelector('.mobile-nav');
 
-// console.log(modalNo)
-// backdrop.style.display= 'block';
-// console.dir(selectPlanButtons);
+function closeModal(){
+    backdrop.style.display='none'
+    modal.style.display='none'
+}
+
 for ( let i = 0;i < selectPlanButtons.length; i++){
     selectPlanButtons[i].addEventListener('click', function(){
         modal.style.display='block';
@@ -14,11 +18,14 @@ for ( let i = 0;i < selectPlanButtons.length; i++){
 }
 
 backdrop.addEventListener('click',function(){
-    backdrop.style.display='none'
-    modal.style.display='none'
+    closeModal();
+    mobileNav.style.display ='none';
 })
 
-modalNo.addEventListener('click',function(){
-    backdrop.style.display='none'
-    modal.style.display='none'
+modalNo.addEventListener('click',closeModal)
+
+toggleButton.addEventListener('click', function(){
+    mobileNav.style.display = 'block';
+    backdrop.style.display = 'block';
 })
+
