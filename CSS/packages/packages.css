@@ -95,4 +95,24 @@ main {
     background: rgba(14,79,31,0.95);
 }
 
+@media (min-width:40rem){
+    main {
+        margin: 3rem;
+        max-width: 1200px;
+    }
+}
+
+@media (min-width: 1200px){
+    .package {
+        border-left: 4px solid #0e4f1f
+    }
+    .free {
+        border-right: 4px solid #0e4f1f
+    }
+    .package:hover,
+    .package:active {
+    border-color: #ff5454;
+    }
+}
+
 
