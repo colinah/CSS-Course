@@ -11,7 +11,7 @@
     /* background-image: radial-gradient(#ccc, #0f5454); */
     width: 100vw;
     height: 33vh;
-    margin-top: 2.65rem;
+    margin-top: 3.5rem;
     position: relative;
    
 }
@@ -78,7 +78,7 @@ color: rgb(133,133,133);
     margin: 0.5rem 0;
 }
 
-@media (min-width: 40rem) and (min-height: 60rem) {
+@media (min-width: 40rem) and (min-height: 40rem) {
     .plan__list {
         width: 100%;
         text-align:center;

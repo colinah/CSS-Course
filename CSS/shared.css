@@ -64,7 +64,8 @@ body{
 }
 
 .main-header__brand img {
-    height: 2.5rem;
+    /* height: 2.5rem; */
+    height: 100%;
 }
 
 .main-nav {
